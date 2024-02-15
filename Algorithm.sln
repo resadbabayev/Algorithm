@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindIntersectionOfTwoArrays", "FindIntersectionOfTwoArrays\FindIntersectionOfTwoArrays.csproj", "{88293CF7-A184-4774-8FFF-B8F10EE2DF55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindIntersectionOfTwoArrays", "FindIntersectionOfTwoArrays\FindIntersectionOfTwoArrays.csproj", "{88293CF7-A184-4774-8FFF-B8F10EE2DF55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxTwoNumberFromArray", "FindMaxTwoNumberFromArray\FindMaxTwoNumberFromArray.csproj", "{68E2485E-8B61-43AE-987D-E061DAAAD355}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{88293CF7-A184-4774-8FFF-B8F10EE2DF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88293CF7-A184-4774-8FFF-B8F10EE2DF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88293CF7-A184-4774-8FFF-B8F10EE2DF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E2485E-8B61-43AE-987D-E061DAAAD355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E2485E-8B61-43AE-987D-E061DAAAD355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E2485E-8B61-43AE-987D-E061DAAAD355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E2485E-8B61-43AE-987D-E061DAAAD355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
