@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindIntersectionOfTwoArrays", "FindIntersectionOfTwoArrays\FindIntersectionOfTwoArrays.csproj", "{88293CF7-A184-4774-8FFF-B8F10EE2DF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxTwoNumberFromArray", "FindMaxTwoNumberFromArray\FindMaxTwoNumberFromArray.csproj", "{68E2485E-8B61-43AE-987D-E061DAAAD355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMaxTwoNumberFromArray", "FindMaxTwoNumberFromArray\FindMaxTwoNumberFromArray.csproj", "{68E2485E-8B61-43AE-987D-E061DAAAD355}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicateLettersFromText", "RemoveDuplicateLettersFromText\RemoveDuplicateLettersFromText.csproj", "{F3D95E85-0677-40BF-A0C1-CA08A282CA40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicateLettersFromText", "RemoveDuplicateLettersFromText\RemoveDuplicateLettersFromText.csproj", "{F3D95E85-0677-40BF-A0C1-CA08A282CA40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAddendNumbersFromArray", "FindAddendNumbersFromArray\FindAddendNumbersFromArray.csproj", "{31B9F50F-4C3C-4B2C-B311-99B81B58084C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F3D95E85-0677-40BF-A0C1-CA08A282CA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3D95E85-0677-40BF-A0C1-CA08A282CA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3D95E85-0677-40BF-A0C1-CA08A282CA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B9F50F-4C3C-4B2C-B311-99B81B58084C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B9F50F-4C3C-4B2C-B311-99B81B58084C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B9F50F-4C3C-4B2C-B311-99B81B58084C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B9F50F-4C3C-4B2C-B311-99B81B58084C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,8 +2,6 @@
 
 const string text = "aabbbacdeeef";
 
-Console.WriteLine(text[2..3]);
-
 if (text.Length > 0)
 {
     StringBuilder sb = new(text[0].ToString());
