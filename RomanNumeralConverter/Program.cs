@@ -2,7 +2,7 @@
 
 public static class Program
 {
-    static readonly Dictionary<char, int> romanDict = new()
+    private static readonly Dictionary<char, int> romanDict = new()
     {
         {'I', 1},
         {'V', 5},

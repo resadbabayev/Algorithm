@@ -1,36 +1,43 @@
 ﻿using System.Text;
 
-
-string[] array = { "flower", "floor", "flight" };
-
-StringBuilder sb = new();
-
-int minLength = array[0].Length;
-
-for (int i = 0; i < minLength; i++)
+public static class Program
 {
-    char currentChar = array[0][i];
-    bool allSame = true;
-
-    for (int j = 1; j < array.Length; j++)
+    public static void Main()
     {
-        if (array[j][i] != currentChar)
+        string[] array = { "floor", "flower", "flight" };
+        Console.WriteLine(LongestCommonPrefix(array));
+    }
+
+    public static string LongestCommonPrefix(string[] strs)
+    {
+        StringBuilder sb = new();
+
+        for (int i = 0; i < strs[0].Length; i++)
         {
-            allSame = false;
-            break;
-        }
-    }
+            char currentChar = strs[0][i];
+            bool allSame = true;
 
-    if (allSame)
-    {
-        sb.Append(currentChar);
-    }
-    else
-    {
-        break;
+            for (int j = 1; j < strs.Length; j++)
+            {
+                if (strs[j].Length == i || strs[j][i] != currentChar)
+                {
+                    allSame = false;
+                    break;
+                }
+            }
+
+            if (allSame)
+            {
+                sb.Append(currentChar);
+            }
+            else
+            {
+                break;
+            }
+        }
+
+        return sb.ToString();
     }
 }
 
-Console.WriteLine(sb.ToString());
-Console.ReadLine();
 
