@@ -3,7 +3,7 @@
 
 string[] array = { "flower", "floor", "flight" };
 
-StringBuilder sb = new ();
+StringBuilder sb = new();
 
 int minLength = array[0].Length;
 
@@ -33,3 +33,4 @@ for (int i = 0; i < minLength; i++)
 
 Console.WriteLine(sb.ToString());
 Console.ReadLine();
+
